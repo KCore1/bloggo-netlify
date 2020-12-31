@@ -10,7 +10,7 @@ html {
 
 body {
     font-family: 'Libre Baskerville', serif;
-    line-height: 1.65;
+    line-height: 29px;
 
     display: flex;
     flex-direction: column;
@@ -143,7 +143,7 @@ small {font-size: 0.8em;}
 }
 
 .backlink:hover {
-    padding-right: 4px; /* Allow mouse to travel between link and modal */
+    padding-right: 8px; /* Allow mouse to travel between link and modal (I messed with this -k)*/
 }
 
 .backlink:hover .backlink__preview {
