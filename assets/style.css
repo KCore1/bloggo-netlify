@@ -1,5 +1,5 @@
 :root {
-    --accent: #9eff9e;
+    --accent: #e68a00;
     --grey: #444;
 }
 
@@ -111,7 +111,6 @@ small {font-size: 0.8em;}
 
 .backlink__preview {
     display: none;
-
     position: absolute;
     bottom: 8px;
     left: 100%;
