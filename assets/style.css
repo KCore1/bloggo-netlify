@@ -1,5 +1,5 @@
 :root {
-    --accent: #2D9CDB;
+    --accent: #9eff9e;
     --grey: #444;
 }
 
@@ -9,9 +9,9 @@ html {
 }
 
 body {
-    font-family: Inter, sans-serif;
+    font-family: 'Libre Baskerville', serif;
     line-height: 1.65;
-    
+
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -60,7 +60,8 @@ a[href] {
 }
 
 a[href]:hover {
-    text-decoration: none;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
 }
 
 a[href]:focus {
@@ -110,13 +111,13 @@ small {font-size: 0.8em;}
 
 .backlink__preview {
     display: none;
-    
+
     position: absolute;
     bottom: 8px;
     left: 100%;
     background-color: #fff;
     border-radius: 4px;
-    padding: 4px;
+    padding: 8px; /* played with this a bit -k */
     box-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.25);
     width: 348px;
     max-height: 148px;
